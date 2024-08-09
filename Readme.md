@@ -14,7 +14,7 @@ Test application implemented with Node.js/Javascript
 ```bash
 docker build -t fetch .
 ```
-## Uasge
+## Usage
 ### Fetch URL content and save
 ```bash
 docker run --rm -v .:/app/sites fetch https://www.google.com
