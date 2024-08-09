@@ -2,7 +2,7 @@
 Test application implemented with Node.js/Javascript
 
 ## Dependencies
-- [Cheerio](cheerio.js.org/) For HTML content parsing
+- [Cheerio](https://cheerio.js.org/) For HTML content parsing
 - [Commander.js](https://www.npmjs.com/package/commander) for commandline argument parsing/checking
 
 ## Prerequisites
