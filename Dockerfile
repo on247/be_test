@@ -14,6 +14,4 @@ RUN npm install
 COPY . .
 
 # Run the application
-COPY entrypoint.sh /
-RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["node","/app/src/fetch.js"]
