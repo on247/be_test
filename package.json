@@ -1,0 +1,16 @@
+{
+  "name": "backend_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch" : "node src/fetch.js"
+  },
+  "author": "Alonso Lizaola",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^12.1.0"
+  }
+}
