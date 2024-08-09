@@ -15,9 +15,11 @@ let fetch_page = async (urls) =>{
     
             const filePath = path.join( 
                 process.cwd(), 
+                "sites",
                 fileName
             );
             
+            console.log(filePath)
             // save file 
             fs.writeFileSync(filePath, data);
             console.log(`Saved data: ${fileName}`);

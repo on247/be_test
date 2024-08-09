@@ -17,7 +17,7 @@ docker build -t fetch .
 ## Uasge
 ### Fetch URL content and save
 ```bash
-docker run --rm -v .:/usr/src/app fetch https://www.google.com
+docker run --rm -v .:/app/sites fetch https://www.google.com
 ```
 
 ### Fetch URL metadata
@@ -27,5 +27,5 @@ docker run --rm fetch --metadata https://www.google.com
 
 ### Fetch mutiple URLs
 ```bash
-docker run --rm -v .:/usr/src/app fetch https://www.google.com https://amazon.com
+docker run --rm -v .:/app/sites fetch https://www.google.com https://amazon.com
 ```
